@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Monomaniac+One&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(invictus\ go\ _\ Almaty\ _\ gym\ zone\ _\ 2022.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 1.5rem solid #000a02;
+    border-bottom: 1.5rem solid #000400;
+}
+
+nav{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+}
+
+nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    color: rgb(236, 236, 236);
+    height: 80pxs;
+}
+
+nav .logo h1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: #ffffff;  
+    text-transform: uppercase; 
+}
+
+nav .logo h1 span{
+    color: #fffefe;
+    margin-left: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a{
+    padding: 1.5rem 2.5rem;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Monomaniac One', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul a:hover{
+   color: #985656;
+    border-top: 5px solid white;  
+    border-bottom: 5px solid white; 
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.A{
+    color: #fffefe;
+    
+}
+
+.header-container{
+    
+    width: 60%;
+    position: relative;
+    top: 25%;
+    left: 4rem;
+}
+
+.header-container h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.header-container h1 .border-bottom{
+    border-bottom: 8px solid rgb(145, 69, 69);
+}
+
+.text-primary{
+    color: rgb(158, 83, 83);
+    border-bottom: 8px solid white;
+}
+
+.header-container p{
+    width: 80%;
+    margin-top: 3rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    text-shadow: #8d2a2a;
+}
+
+.btn{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding: 0.6rem 1.2rem;
+    outline: none;
+    border: 2px solid rgb(251, 250, 250);
+    border-radius: 7% ;
+    cursor: pointer;
+}
+
+.btn-primary{
+    font-size: 15px;
+    font-family: 'Monomaniac One', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    background-color: #884242;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 0.6px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.5s linear;
+    color: #ffffff;
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+}
